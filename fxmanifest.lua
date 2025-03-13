@@ -2,6 +2,8 @@ fx_version 'cerulean'
 
 game 'gta5'
 
+lua54 'yes'
+
 author 'Virgin'
 description 'Main menu UI redenered base OX'
 version '0.0.1'
@@ -11,7 +13,6 @@ shared_scripts {
 }
 
 client_scripts 'client.lua'
-server_scripts 'server.lua'
 
 dependencies {
     'ox_lib'
